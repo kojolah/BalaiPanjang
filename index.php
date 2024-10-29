@@ -74,8 +74,8 @@
 <body>
     <div class="main-container">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Lambang_Kabupaten_Lima_Puluh_Kota.png/512px-Lambang_Kabupaten_Lima_Puluh_Kota.png" alt="Logo Kabupaten Lima Puluh Kota" width="10%">
+        <p>Nagori Go Digital</p>   
         <h1>Coming Soon!</h1>
-        <p><?php echo $_SERVER['SERVER_NAME']; ?> - Nagori Go Digital</p>
         <p class="powered">Powered by Kojolah Sandbox & Kominfo Sumatera Barat</p>
     </div>
 </body>
