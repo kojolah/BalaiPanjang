@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+ <!-- Primary Meta Tags -->
+<title>Nagori Go Digital</title>
+<meta name="title" content="Nagori Go Digital" />
+<meta name="description" content="Program Digitalisasi Nagori Merupakan Bentuk Transparansi Pemerintah Terhadap Informasi Publik yang Akan Disampaikan Kepada Masyarakat." />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://nagori.id/" />
+<meta property="og:title" content="Nagori Go Digital" />
+<meta property="og:description" content="Program Digitalisasi Nagori Merupakan Bentuk Transparansi Pemerintah Terhadap Informasi Publik yang Akan Disampaikan Kepada Masyarakat." />
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Lambang_Kabupaten_Lima_Puluh_Kota.png/512px-Lambang_Kabupaten_Lima_Puluh_Kota.png" />
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="https://nagori.id/" />
+<meta property="twitter:title" content="Nagori Go Digital" />
+<meta property="twitter:description" content="Program Digitalisasi Nagori Merupakan Bentuk Transparansi Pemerintah Terhadap Informasi Publik yang Akan Disampaikan Kepada Masyarakat." />
+<meta property="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Lambang_Kabupaten_Lima_Puluh_Kota.png/512px-Lambang_Kabupaten_Lima_Puluh_Kota.png" />
+
+    
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+        .main-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            animation: fade-in 1s ease-in-out;
+        }
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+            color: #333;
+            animation: bob-up-down 2s infinite;
+        }
+        p {
+            font-size: 1.5rem;
+            color: #666;
+        }
+      
+        .powered {
+          font-size: 1rem;
+        }
+      
+        @keyframes fade-in {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        @keyframes bob-up-down {
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Lambang_Kabupaten_Lima_Puluh_Kota.png/512px-Lambang_Kabupaten_Lima_Puluh_Kota.png" alt="Logo Kabupaten Lima Puluh Kota" width="10%">
+        <h1>Coming Soon!</h1>
+        <p><?php echo $_SERVER['SERVER_NAME']; ?> - Nagori Go Digital</p>
+        <p class="powered">Powered by Kojolah Sandbox & Kominfo Sumatera Barat</p>
+    </div>
+</body>
+</html>
